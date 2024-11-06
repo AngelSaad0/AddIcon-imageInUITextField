@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imageInUITextField" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imageInUITextFieldAndSingleLine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,11 +39,28 @@
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7Y-DF-wlA">
+                                <rect key="frame" x="100.66666666666669" y="409" width="192" height="34.333333333333314"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Underline label">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.26274511220000002" green="0.078431375319999996" blue="0.14509806040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="31"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="XeG-Ey-2kL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="12I-bh-dOt"/>
+                            <constraint firstItem="f7Y-DF-wlA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Hh6-hO-X8Y"/>
+                            <constraint firstItem="f7Y-DF-wlA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g2T-ZM-P2j"/>
                             <constraint firstItem="XeG-Ey-2kL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iHu-EN-ZEK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XeG-Ey-2kL" secondAttribute="trailing" constant="20" id="vcK-Y1-aPA"/>
                         </constraints>
@@ -56,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-141" y="4"/>
+            <point key="canvasLocation" x="-141.22137404580153" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

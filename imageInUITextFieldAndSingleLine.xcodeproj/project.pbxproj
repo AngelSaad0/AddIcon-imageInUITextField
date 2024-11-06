@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A9E795352CDAECEC0024C443 /* imageInUITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageInUITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E795352CDAECEC0024C443 /* imageInUITextFieldAndSingleLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageInUITextFieldAndSingleLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A9E795472CDAECEE0024C443 /* Exceptions for "imageInUITextField" folder in "imageInUITextField" target */ = {
+		A9E795472CDAECEE0024C443 /* Exceptions for "imageInUITextFieldAndSingleLine" folder in "imageInUITextFieldAndSingleLine" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = A9E795342CDAECEC0024C443 /* imageInUITextField */;
+			target = A9E795342CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9E795372CDAECEC0024C443 /* imageInUITextField */ = {
+		A9E795372CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A9E795472CDAECEE0024C443 /* Exceptions for "imageInUITextField" folder in "imageInUITextField" target */,
+				A9E795472CDAECEE0024C443 /* Exceptions for "imageInUITextFieldAndSingleLine" folder in "imageInUITextFieldAndSingleLine" target */,
 			);
-			path = imageInUITextField;
+			path = imageInUITextFieldAndSingleLine;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		A9E7952C2CDAECEC0024C443 = {
 			isa = PBXGroup;
 			children = (
-				A9E795372CDAECEC0024C443 /* imageInUITextField */,
+				A9E795372CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */,
 				A9E795362CDAECEC0024C443 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		A9E795362CDAECEC0024C443 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9E795352CDAECEC0024C443 /* imageInUITextField.app */,
+				A9E795352CDAECEC0024C443 /* imageInUITextFieldAndSingleLine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9E795342CDAECEC0024C443 /* imageInUITextField */ = {
+		A9E795342CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9E795482CDAECEE0024C443 /* Build configuration list for PBXNativeTarget "imageInUITextField" */;
+			buildConfigurationList = A9E795482CDAECEE0024C443 /* Build configuration list for PBXNativeTarget "imageInUITextFieldAndSingleLine" */;
 			buildPhases = (
 				A9E795312CDAECEC0024C443 /* Sources */,
 				A9E795322CDAECEC0024C443 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A9E795372CDAECEC0024C443 /* imageInUITextField */,
+				A9E795372CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */,
 			);
-			name = imageInUITextField;
+			name = imageInUITextFieldAndSingleLine;
 			packageProductDependencies = (
 			);
 			productName = imageInUITextField;
-			productReference = A9E795352CDAECEC0024C443 /* imageInUITextField.app */;
+			productReference = A9E795352CDAECEC0024C443 /* imageInUITextFieldAndSingleLine.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9E795302CDAECEC0024C443 /* Build configuration list for PBXProject "imageInUITextField" */;
+			buildConfigurationList = A9E795302CDAECEC0024C443 /* Build configuration list for PBXProject "imageInUITextFieldAndSingleLine" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9E795342CDAECEC0024C443 /* imageInUITextField */,
+				A9E795342CDAECEC0024C443 /* imageInUITextFieldAndSingleLine */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = imageInUITextField/Info.plist;
+				INFOPLIST_FILE = imageInUITextFieldAndSingleLine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = imageInUITextField/Info.plist;
+				INFOPLIST_FILE = imageInUITextFieldAndSingleLine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9E795302CDAECEC0024C443 /* Build configuration list for PBXProject "imageInUITextField" */ = {
+		A9E795302CDAECEC0024C443 /* Build configuration list for PBXProject "imageInUITextFieldAndSingleLine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9E7954B2CDAECEE0024C443 /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9E795482CDAECEE0024C443 /* Build configuration list for PBXNativeTarget "imageInUITextField" */ = {
+		A9E795482CDAECEE0024C443 /* Build configuration list for PBXNativeTarget "imageInUITextFieldAndSingleLine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9E795492CDAECEE0024C443 /* Debug */,
